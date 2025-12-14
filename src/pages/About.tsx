@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react';
+/* import removed */
 import meetingImage from '../assets/meeting.png';
 import './About.css';
 
