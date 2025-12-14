@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import tropicalImage from '../assets/tropical.png';
 import meetingImage from '../assets/meeting.png';
+import familyImage from '../assets/family.png';
 import './Packages.css';
 
 const Packages = () => {
@@ -52,9 +53,7 @@ const Packages = () => {
                         {/* Package 3 */}
                         <div className="package-card fade-in">
                             <div className="package-image">
-                                <div className="placeholder-image" style={{ backgroundColor: '#e0e0e0', height: '220px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                    <span style={{ color: '#888' }}>Family Destination</span>
-                                </div>
+                                <img src={familyImage} alt="Family Vacation" />
                                 <div className="package-badge family">Family</div>
                             </div>
                             <div className="package-content">
