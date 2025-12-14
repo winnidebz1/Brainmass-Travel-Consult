@@ -1,0 +1,62 @@
+.page-header {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 6rem 0 4rem;
+    margin-bottom: 2rem;
+}
+
+.page-header h1 {
+    color: var(--color-white);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    margin-bottom: 1.5rem;
+}
+
+.about-image {
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.mission-box {
+    background-color: var(--color-background);
+    padding: 2rem;
+    border-left: 4px solid var(--color-gold);
+    border-radius: 0 8px 8px 0;
+}
+
+.mission-box h3 {
+    color: var(--color-primary);
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.values-section {
+    background-color: #fff;
+}
+
+.value-card {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--color-background);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-card h3 {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
